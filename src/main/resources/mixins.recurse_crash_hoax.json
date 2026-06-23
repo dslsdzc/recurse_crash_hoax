@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.recursecrashhoax.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "mixins.recurse_crash_hoax.refmap.json",
+  "mixins": [
+    "CrashProcedureMixin"
+  ],
+  "client": [
+    "MinecraftMixin"
+  ],
+  "server": []
+}
